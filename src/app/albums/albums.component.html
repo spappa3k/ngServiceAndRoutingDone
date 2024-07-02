@@ -1,0 +1,6 @@
+<h4 style="margin-top:20px;margin-bottom:10px;">List of Albums</h4>
+<ul>
+<div class="container"*ngFor="let album of albums" >
+    <a [routerLink]="['/albums',album.id]"><li>{{album.title}}</li></a>
+    <hr>
+    </div>
